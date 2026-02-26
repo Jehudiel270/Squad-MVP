@@ -19,10 +19,17 @@ const Navbar = () => {
   // Initialize on mount (hydration) - ensure consistent rendering
   useEffect(() => {
     const savedTheme = (localStorage.getItem("theme") as Theme) || "night";
-    setTheme(savedTheme);
-    setMounted(true);
     document.documentElement.setAttribute("data-theme", savedTheme);
+    setMounted(true);
   }, []);
+
+  // Set theme on mount from localStorage
+  useEffect(() => {
+    if (mounted) {
+      const savedTheme = (localStorage.getItem("theme") as Theme) || "night";
+      setTheme(savedTheme);
+    }
+  }, [mounted]);
 
   // Toggle theme
   const handleThemeToggle = () => {
@@ -34,7 +41,7 @@ const Navbar = () => {
     if (mounted) {
       try {
         localStorage.setItem("theme", theme);
-      } catch (e) {}
+      } catch {}
       document.documentElement.setAttribute("data-theme", theme);
     }
   }, [theme, mounted]);
@@ -89,7 +96,7 @@ const Navbar = () => {
           Se connecter
         </Link>
         <Link href="/register" className="btn btn-primary btn-md">
-          S'inscrire
+          S&apos;inscrire
         </Link>
 
         {/* Theme Toggle - Only render after hydration */}
@@ -154,11 +161,8 @@ const Navbar = () => {
 
           {/* Sign Up Button */}
           <div className="px-6 py-3">
-            <Link
-              href="/register"
-              className="w-full btn btn-primary btn-sm block text-center"
-            >
-              S'inscrire
+            <Link href="/register" className="btn btn-primary btn-sm w-full">
+              S&apos;inscrire
             </Link>
           </div>
         </div>
