@@ -18,6 +18,7 @@ export const metadata: Metadata = {
   title: "La Squad - ENEAM",
   description:
     "La Squad, le groupe dynamique de jeunes qui organise les évènements de l'ENEAM",
+  viewport: "width=device-width, initial-scale=1",
 };
 
 export default function RootLayout({

@@ -77,7 +77,7 @@ const Navbar = () => {
       </div>
 
       {/* Desktop Navigation */}
-      {!isMobile && (
+      {mounted && !isMobile && (
         <div className="flex gap-2 items-center">
           {/* Nav Items */}
           <div className="flex gap-1">
@@ -117,7 +117,7 @@ const Navbar = () => {
       )}
 
       {/* Mobile Hamburger & Controls */}
-      {isMobile && (
+      {mounted && isMobile && (
         <div className="flex gap-2">
           {/* Theme Toggle */}
           <button
@@ -141,7 +141,7 @@ const Navbar = () => {
 
       {/* Mobile Menu Dropdown */}
       {isOpen && (
-        <div className="md:hidden fixed left-0 right-0 top-15 w-full bg-base-100 border-b border-base-300 shadow-lg z-40 flex flex-col py-2">
+        <div className="md:hidden fixed left-0 right-0 top-16 w-full bg-base-100 border-b border-base-300 shadow-lg z-40 flex flex-col py-2">
           {/* Nav Items */}
           {navItems.map((item) => (
             <a
