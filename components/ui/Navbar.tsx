@@ -16,22 +16,12 @@ const Navbar = () => {
   const [theme, setTheme] = useState<Theme>("night");
   const [isOpen, setIsOpen] = useState(false);
 
-  const [isMobile, setIsMobile] = useState<boolean>(false);
-
   // Initialize on mount (hydration) - ensure consistent rendering
   useEffect(() => {
     const savedTheme = (localStorage.getItem("theme") as Theme) || "night";
     setTheme(savedTheme);
-    setIsMobile(window.innerWidth < 768);
     setMounted(true);
     document.documentElement.setAttribute("data-theme", savedTheme);
-  }, []);
-
-  // Handle window resize
-  useEffect(() => {
-    const handleResize = () => setIsMobile(window.innerWidth < 768);
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   // Toggle theme
@@ -76,68 +66,64 @@ const Navbar = () => {
         /> */}
       </div>
 
-      {/* Desktop Navigation */}
-      {mounted && !isMobile && (
-        <div className="flex gap-2 items-center">
-          {/* Nav Items */}
-          <div className="flex gap-1">
-            {navItems.map((item) => (
-              <a
-                key={item.href}
-                href={item.href}
-                className="btn btn-ghost btn-md text-base-content/80 hover:text-primary transition-colors no-underline"
-              >
-                {item.label}
-              </a>
-            ))}
-          </div>
-
-          {/* Divider */}
-          <div className="divider divider-horizontal mx-1 h-6"></div>
-
-          {/* Auth Buttons */}
-          <Link href="/login" className="btn btn-ghost btn-md">
-            Se connecter
-          </Link>
-          <Link href="/register" className="btn btn-primary btn-md">
-            S'inscrire
-          </Link>
-
-          {/* Theme Toggle - Only render after hydration */}
-          <button
-            onClick={handleThemeToggle}
-            className="btn btn-ghost btn-circle btn-md"
-            aria-label="Basculer le thème"
-          >
-            {mounted &&
-              (theme === "light" ? <Moon size={20} /> : <Sun size={20} />)}
-            {!mounted && <Sun size={20} />}
-          </button>
+      {/* Desktop Navigation - Always rendered, shown with CSS media query */}
+      <div className="flex-1 flex-grow hidden md:flex gap-2 items-center">
+        {/* Nav Items */}
+        <div className="flex gap-1">
+          {navItems.map((item) => (
+            <a
+              key={item.href}
+              href={item.href}
+              className="btn btn-ghost btn-md text-base-content/80 hover:text-primary transition-colors no-underline"
+            >
+              {item.label}
+            </a>
+          ))}
         </div>
-      )}
 
-      {/* Mobile Hamburger & Controls */}
-      {mounted && isMobile && (
-        <div className="flex gap-2">
-          {/* Theme Toggle */}
-          <button
-            onClick={handleThemeToggle}
-            className="btn btn-ghost btn-circle btn-sm"
-          >
-            {mounted &&
-              (theme === "light" ? <Moon size={20} /> : <Sun size={20} />)}
-            {!mounted && <Sun size={20} />}
-          </button>
+        {/* Divider */}
+        <div className="divider divider-horizontal mx-1 h-6"></div>
 
-          {/* Hamburger Menu */}
-          <button
-            onClick={() => setIsOpen(!isOpen)}
-            className="btn btn-ghost btn-circle btn-sm"
-          >
-            {isOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
-        </div>
-      )}
+        {/* Auth Buttons */}
+        <Link href="/login" className="btn btn-ghost btn-md">
+          Se connecter
+        </Link>
+        <Link href="/register" className="btn btn-primary btn-md">
+          S'inscrire
+        </Link>
+
+        {/* Theme Toggle - Only render after hydration */}
+        <button
+          onClick={handleThemeToggle}
+          className="btn btn-ghost btn-circle btn-md"
+          aria-label="Basculer le thème"
+        >
+          {mounted &&
+            (theme === "light" ? <Moon size={20} /> : <Sun size={20} />)}
+          {!mounted && <Sun size={20} />}
+        </button>
+      </div>
+
+      {/* Mobile Hamburger & Controls - Always rendered, shown with CSS media query */}
+      <div className="flex md:hidden gap-2">
+        {/* Theme Toggle */}
+        <button
+          onClick={handleThemeToggle}
+          className="btn btn-ghost btn-circle btn-sm"
+        >
+          {mounted &&
+            (theme === "light" ? <Moon size={20} /> : <Sun size={20} />)}
+          {!mounted && <Sun size={20} />}
+        </button>
+
+        {/* Hamburger Menu */}
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="btn btn-ghost btn-circle btn-sm"
+        >
+          {isOpen ? <X size={24} /> : <Menu size={24} />}
+        </button>
+      </div>
 
       {/* Mobile Menu Dropdown */}
       {isOpen && (
