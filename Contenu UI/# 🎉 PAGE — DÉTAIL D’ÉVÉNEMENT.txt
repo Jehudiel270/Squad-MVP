@@ -1,0 +1,203 @@
+# 🎉 PAGE — DÉTAIL D’ÉVÉNEMENT
+
+---
+
+## 🔝 NAVBAR
+
+**Logo :**
+- Icône : `Zap`
+- Texte : Squad ENEAM
+
+**Liens :**
+- Accueil
+- Événements
+- Galerie
+- La Squad
+
+**Bouton :**
+Réserver ma place  
+Icône : `Ticket`
+
+---
+
+# 🎊 HERO ÉVÉNEMENT
+
+## Badge catégorie :
+Événement officiel  
+Icône : `Sparkles`
+
+## Date :
+Vendredi 25 Octobre 2026  
+Icône : `Calendar`
+
+# Soirée d’intégration ENEAM 2026
+
+## Lieu :
+Salle des fêtes, Campus principal ENEAM  
+Icône : `MapPin`
+
+## Prix :
+Gratuit  
+Icône : `Tag`
+
+---
+
+### 🎟️ Bouton principal :
+Réserver ma place  
+Icône : `Ticket`
+
+---
+
+# 📝 DESCRIPTION DE L’ÉVÉNEMENT
+
+## Titre section :
+À propos de la soirée
+
+**Texte :**
+
+La Soirée d’intégration est l’événement incontournable de la rentrée à l’ENEAM.  
+Une ambiance électrique, des animations exclusives, des performances live et une communauté réunie pour accueillir les nouveaux étudiants.
+
+Attendez-vous à :
+- Une scénographie immersive
+- Un DJ set dynamique
+- Des jeux interactifs
+- Des surprises tout au long de la nuit
+
+---
+
+# 📌 INFORMATIONS RAPIDES
+
+| Élément | Détail | Icône |
+|---------|--------|--------|
+| Date | 25 Octobre 2026 | `Calendar` |
+| Heure | 18h00 – 02h00 | `Clock` |
+| Lieu | Salle des fêtes ENEAM | `MapPin` |
+| Accès | Étudiants ENEAM uniquement | `ShieldCheck` |
+| Prix | Gratuit | `Tag` |
+
+---
+
+# 🗓️ PROGRAMME DE LA SOIRÉE
+
+## Titre :
+Programme
+
+| Heure | Activité | Icône |
+|--------|----------|--------|
+| 18h00 | Accueil & Installation | `DoorOpen` |
+| 19h00 | Mot de bienvenue | `Mic` |
+| 20h00 | Jeux & Animations | `Gamepad2` |
+| 22h00 | DJ Set Live | `Music` |
+| 00h00 | Show surprise | `Sparkles` |
+| 02h00 | Clôture | `Moon` |
+
+---
+
+# 🎯 ACTIVITÉS PRÉVUES
+
+## Titre :
+Activités
+
+### 🎧 DJ Live
+- Icône : `Music`
+- Ambiance Afrobeat, Amapiano, Hits internationaux
+
+### 🎮 Jeux concours
+- Icône : `Trophy`
+- Cadeaux à gagner
+
+### 📸 Photo Booth
+- Icône : `Camera`
+- Espace photo personnalisé Squad ENEAM
+
+### 🎤 Performances
+- Icône : `Mic`
+- Interventions artistiques étudiantes
+
+---
+
+# 🖼️ GALERIE PHOTOS
+
+## Titre :
+Éditions précédentes
+
+- 6 images en grille
+- Hover avec overlay sombre
+- Icône overlay : `Eye`
+
+**Bouton :**
+Voir plus de photos  
+Icône : `Images`
+
+---
+
+# ❓ FAQ
+
+## Titre :
+Questions fréquentes
+
+---
+
+### 1️⃣ L’événement est-il payant ?
+Non, l’accès est gratuit pour tous les étudiants ENEAM.
+
+---
+
+### 2️⃣ Faut-il réserver à l’avance ?
+Oui, la réservation permet de gérer la capacité de la salle.
+
+---
+
+### 3️⃣ Peut-on inviter une personne extérieure ?
+Non, l’événement est réservé aux étudiants ENEAM.
+
+---
+
+### 4️⃣ Y a-t-il un dress code ?
+Oui, tenue correcte exigée. Thème néon conseillé.
+
+---
+
+# 🔐 SECTION CTA FINALE
+
+## Prêt à vivre l’expérience ?
+
+Rejoins-nous pour une soirée mémorable organisée par la Squad ENEAM.
+
+### Bouton :
+Réserver ma place maintenant  
+Icône : `ArrowRight`
+
+---
+
+# 🔻 FOOTER
+
+## Squad ENEAM
+Créer des expériences. Rassembler les étudiants.
+
+---
+
+## Réseaux sociaux
+
+- Instagram — `Instagram`
+- Facebook — `Facebook`
+- TikTok — `Music`
+- YouTube — `Youtube`
+
+---
+
+© 2026 Squad ENEAM. Tous droits réservés.
+
+
+
+
+
+
+====================SUGGESTION======================
+
+🔥 Rendre le copywriting encore plus impactant
+
+🎟️ Ajouter une section "Places restantes" avec compteur
+
+💳 Prévoir une version payante avec tableau de tarifs

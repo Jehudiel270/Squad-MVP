@@ -1,0 +1,182 @@
+# 🏠 PAGE D’ACCUEIL — LA SQUAD ENEAM
+
+---
+
+## 🔝 NAVBAR
+
+**Logo :**
+- ⚡ Icône : `Zap` (lucide-react)
+- Texte : **Squad ENEAM**
+
+**Liens de navigation :**
+- Accueil
+- Événements
+- Galerie
+- Équipe
+- Contact
+
+**Bouton CTA (droite navbar) :**
+- Texte : Rejoindre la squad
+- Icône : `Users`
+
+---
+
+# 🎉 HERO SECTION
+
+**Badge supérieur :**
+- Texte : Site officiel de la Squad ENEAM
+- Icône : `Sparkles`
+
+**Titre principal :**
+# La Squad ENEAM
+
+**Sous-titre :**
+Nous organisons les meilleures soirées et événements étudiants de l’ENEAM.  
+Ambiance premium, expériences inoubliables, communauté soudée.
+
+**Boutons CTA :**
+
+1. 🎟️ Voir les événements  
+   - Icône : `CalendarDays`
+
+2. 👥 Rejoindre la squad  
+   - Icône : `UserPlus`
+
+**Indicateur slider (si carousel) :**
+- 4 dots indicateurs
+
+---
+
+# 📅 SECTION : PROCHAIN ÉVÉNEMENT
+
+## Titre :
+# Prochain événement
+
+---
+
+### 🎊 Carte Événement
+
+**Nom de l’événement :**
+Squad Party – Night Edition
+
+**Date :**
+12 Avril 2026  
+Icône : `Calendar`
+
+**Lieu :**
+Campus ENEAM – Espace Culturel  
+Icône : `MapPin`
+
+**Heure :**
+18h00 – 02h00  
+Icône : `Clock`
+
+**Description courte :**
+Une soirée exceptionnelle avec DJ, animations, jeux concours et ambiance 100% étudiante.
+
+**Badge statut :**
+À venir  
+Icône : `Flame`
+
+**Bouton :**
+Voir les détails  
+Icône : `ArrowRight`
+
+---
+
+# 📊 SECTION : STATISTIQUES
+
+## Titre :
+La Squad en chiffres
+
+---
+
+| Statistique | Valeur | Icône Lucide |
+|------------|--------|--------------|
+| Événements organisés | 24+ | `CalendarCheck` |
+| Étudiants participants | 3500+ | `Users` |
+| Années d’existence | 5 ans | `Award` |
+
+---
+
+# 🖼️ SECTION : GALERIE PREVIEW
+
+## Titre :
+Moments inoubliables
+
+**Description :**
+Revivez les meilleurs moments de nos précédents événements.
+
+**Éléments :**
+- 4 images en grille
+- Hover : zoom + overlay sombre
+- Icône overlay : `Eye`
+
+**Bouton :**
+Voir toute la galerie  
+Icône : `Images`
+
+---
+
+# 👥 SECTION : REJOINDRE LA SQUAD
+
+## Titre :
+Envie de faire partie de l’aventure ?
+
+**Description :**
+Intègre une équipe dynamique, développe ton réseau et participe à l’organisation des plus grands événements étudiants de l’ENEAM.
+
+**Avantages (liste) :**
+
+- 🎯 Expérience en organisation événementielle — `Briefcase`
+- 🤝 Réseau étudiant solide — `Users`
+- 🎤 Accès VIP aux événements — `Star`
+- 🚀 Développement personnel — `TrendingUp`
+
+**Bouton principal :**
+Postuler maintenant  
+Icône : `Send`
+
+---
+
+# 📩 SECTION : CONTACT RAPIDE
+
+## Titre :
+Une question ? Une collaboration ?
+
+**Texte :**
+Contacte-nous directement pour toute information ou partenariat.
+
+**Informations rapides :**
+
+- 📍 Localisation : ENEAM, Cotonou — `MapPin`
+- 📧 Email : squadeneam@gmail.com — `Mail`
+- 📱 WhatsApp : +229 XX XX XX XX — `MessageCircle`
+
+**Bouton :**
+Nous écrire  
+Icône : `Mail`
+
+---
+
+# 🔻 FOOTER
+
+**Colonne 1 :**
+Squad ENEAM  
+Créer des expériences. Rassembler les étudiants.
+
+**Colonne 2 – Navigation :**
+- Accueil
+- Événements
+- Galerie
+- Équipe
+- Contact
+
+**Colonne 3 – Réseaux sociaux :**
+- Instagram — `Instagram`
+- Facebook — `Facebook`
+- TikTok — `Music`
+- YouTube — `Youtube`
+
+**Bas footer :**
+© 2026 Squad ENEAM. Tous droits réservés.

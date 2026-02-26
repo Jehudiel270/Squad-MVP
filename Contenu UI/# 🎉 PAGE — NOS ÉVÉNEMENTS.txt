@@ -1,0 +1,229 @@
+# 🎉 PAGE — NOS ÉVÉNEMENTS
+
+---
+
+## 🔝 NAVBAR
+
+**Logo :**
+- Icône : `Zap`
+- Texte : Squad ENEAM
+
+**Liens :**
+- Événements (actif)
+- Galerie
+- La Squad
+
+**Bouton :**
+Se connecter  
+Icône : `LogIn`
+
+---
+
+# 🏷️ HEADER PAGE
+
+## Titre principal :
+# Nos Événements
+
+**Description courte :**
+Découvrez toutes les soirées, activités culturelles et événements organisés par la Squad ENEAM.
+
+---
+
+## 🎛️ FILTRES
+
+- Bouton actif : À venir  
+  Icône : `CalendarClock`
+
+- Bouton : Passés  
+  Icône : `History`
+
+---
+
+# 🖼️ LISTE DES ÉVÉNEMENTS (GRILLE)
+
+---
+
+## 🎊 Carte 1
+
+**Badge :**
+À venir  
+Icône : `Flame`
+
+**Titre :**
+Neon Night Vol. IV
+
+**Date :**
+15 Octobre 2026  
+Icône : `Calendar`
+
+**Lieu :**
+Salle Polyvalente ENEAM  
+Icône : `MapPin`
+
+**Description courte :**
+Une soirée immersive sous lumière néon avec DJ, performances live et ambiance 100% festive.
+
+**Bouton :**
+Voir plus  
+Icône : `ArrowRight`
+
+---
+
+## 🎊 Carte 2
+
+**Badge :**
+À venir  
+Icône : `Flame`
+
+**Titre :**
+Neon Night Vol. V
+
+**Date :**
+20 Décembre 2026  
+Icône : `Calendar`
+
+**Lieu :**
+Campus ENEAM  
+Icône : `MapPin`
+
+**Description courte :**
+Nouvelle édition encore plus intense avec invités surprises et animations exclusives.
+
+**Bouton :**
+Voir plus  
+Icône : `ArrowRight`
+
+---
+
+## 🎃 Carte 3
+
+**Badge :**
+Terminé  
+Icône : `CheckCircle`
+
+**Titre :**
+Neon Night Spécial Halloween
+
+**Date :**
+31 Octobre 2025  
+Icône : `Calendar`
+
+**Lieu :**
+Salle Polyvalente ENEAM  
+Icône : `MapPin`
+
+**Description courte :**
+Édition spéciale Halloween avec concours du meilleur costume et ambiance sombre immersive.
+
+**Bouton :**
+Voir plus  
+Icône : `ArrowRight`
+
+---
+
+## 🎬 Carte 4
+
+**Badge :**
+Terminé  
+Icône : `CheckCircle`
+
+**Titre :**
+Cinéma Night Spécial ENEAM
+
+**Date :**
+12 Juillet 2025  
+Icône : `Calendar`
+
+**Lieu :**
+Amphi Central ENEAM  
+Icône : `MapPin`
+
+**Description courte :**
+Projection grand écran + débat étudiant + moments de partage.
+
+**Bouton :**
+Voir plus  
+Icône : `ArrowRight`
+
+---
+
+## 🎬 Carte 5
+
+**Badge :**
+Terminé  
+Icône : `CheckCircle`
+
+**Titre :**
+Ciné-Club Spécial Halloween
+
+**Date :**
+28 Octobre 2025  
+Icône : `Calendar`
+
+**Lieu :**
+Salle Polyvalente ENEAM  
+Icône : `MapPin`
+
+**Description courte :**
+Films d’horreur, animations et ambiance frissons garantis.
+
+**Bouton :**
+Voir plus  
+Icône : `ArrowRight`
+
+---
+
+## 🎧 Carte 6
+
+**Badge :**
+Terminé  
+Icône : `CheckCircle`
+
+**Titre :**
+Back to School Party
+
+**Date :**
+10 Septembre 2025  
+Icône : `Calendar`
+
+**Lieu :**
+Campus ENEAM  
+Icône : `MapPin`
+
+**Description courte :**
+La soirée de rentrée officielle pour lancer l’année académique.
+
+**Bouton :**
+Voir plus  
+Icône : `ArrowRight`
+
+---
+
+# 📊 RÉCAPITULATIF (OPTIONNEL)
+
+| Type | Nombre |
+|------|--------|
+| Événements à venir | 2 |
+| Événements passés | 4 |
+| Total organisé | 6 |
+
+---
+
+# 🔻 FOOTER
+
+## Squad ENEAM
+
+Créer des expériences. Rassembler les étudiants.
+
+---
+
+## Connecte-toi avec nous
+
+- Instagram — `Instagram`
+- Facebook — `Facebook`
+- TikTok — `Music`
+- YouTube — `Youtube`
+
+---
+
+© 2026 Squad ENEAM. Tous droits réservés.
