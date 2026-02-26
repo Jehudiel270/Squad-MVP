@@ -67,7 +67,7 @@ const Navbar = () => {
       </div>
 
       {/* Desktop Navigation - Always rendered, shown with CSS media query */}
-      <div className="flex-1 flex-grow hidden md:flex gap-2 items-center">
+      <div className="hidden md:flex gap-2 items-center">
         {/* Nav Items */}
         <div className="flex gap-1">
           {navItems.map((item) => (
